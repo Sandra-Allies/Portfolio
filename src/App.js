@@ -1,13 +1,10 @@
 import './App.scss';
+import Header from './header/header';
 
 function App() {
   return (
     <div className="App">
-      {/* FOR RIBBON NAME */}
-        <div class="ribbon"><span>Sandra Alliès</span></div>
-
-
-      {/* <h1><span>Portfolio</span></h1> */}
+    <Header />
     </div>
   );
 }
