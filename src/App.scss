@@ -4,26 +4,13 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   width: 100vw;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  background-color: $bg-white;
+  background-color: $bg-parchemin;
 }
 
 body {
-  position: relative;
-  width: 70%;
-  min-height: 500px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background: $bg-body;
-  background-color: #F9F3E7;
-  background-size: 30px;
-  border: $border-body;
-  border-radius: $border-radius-all;
-  /* 0 aucun décalage sur l'horizontal, 0 aucun décalage sur la verticale 
-  10px taille du blur et 1px taille de l'étalement du rayon du blur*/
-  box-shadow: 0 0 10px 1px lightgrey;
+  background: $bg-dot;
+  background-size: $bg-size;
 }
