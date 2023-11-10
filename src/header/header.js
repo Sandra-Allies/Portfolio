@@ -1,9 +1,29 @@
 import './header.scss';
+import { Icon } from '@iconify/react';
 
 function Header() {
     return (
         <div className="Header">
-            <h1>Hello worldounet</h1>
+            <div className="col1">
+                <div class="col1-sun">
+                    <Icon icon="pixelarticons:sun" />
+                </div>
+
+                <div class="col1-name"><h1>Sandra Alliès</h1></div>
+                <div class="col1-mail">sandra.allies.fr@gmail.com</div>
+            </div>
+
+            <div className="col2">
+                <div class="avatar"> </div>
+
+            </div>
+
+            <div className="col3">
+                <div class="col3-moon"><Icon icon="pixelarticons:moon" /></div>
+                <div class="col3-devweb"><h1>Développeuse web Full Stack</h1></div>
+                <div class="col3-ecole">Ecole actuelle : 3W Academy</div>
+            </div>
+
         </div>
     );
 }
