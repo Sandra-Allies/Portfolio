@@ -40,5 +40,8 @@
   "main": "App.js",
   "repository": "https://github.com/Sandra-Allies/Portfolio.git",
   "author": "Sandra-Allies",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@iconify/react": "^4.1.1"
+  }
 }
