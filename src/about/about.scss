@@ -17,12 +17,13 @@
         border-bottom: $rose solid 2px;
         text-align: start;
         padding: 5px;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     &-title {
         background-color: $rose;
         text-indent: 20px;
+        margin-bottom: 10px;
     }
 
     iframe {

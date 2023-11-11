@@ -1,12 +1,12 @@
 import './cards.scss';
-import Feneco from '../assets/images/Feneco.jpg';
+import logo from '../assets/images/logo.jpg'
 
 function Card() {
     // const feneco = Feneco;
     return (
         <div className="Card">
             <div className="Card-picture">
-            <img src={Feneco} />
+            <img src={logo} />
             </div>
 
             <div className="Card-content">
