@@ -1,0 +1,32 @@
+@import '../_var.scss';
+
+.About {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+    &-table {
+        border-right: $rose solid 2px;
+        border-bottom: $rose solid 2px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    &-caption {
+        border-left: $rose solid 2px;
+        border-bottom: $rose solid 2px;
+        text-align: start;
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+
+    &-title {
+        background-color: $rose;
+        text-indent: 20px;
+    }
+
+    iframe {
+        width: 24%;
+        height: 200px;
+    }
+}
