@@ -4,15 +4,29 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100vw;
   background-color: $beige;
   box-sizing: border-box;
 }
 
+// TODO
+// CHANGER LA TAILLE EN FONCTION DE LA RESOLUTION
+// DEFINIR EN % AVEC LES MEDIA QUERIES
+
 .App {
-width: 80%;
-min-width: 1060px;
-height: auto;
-margin: auto;
+  // width: 80%;
+  width: 1060px; // add min-
+  height: auto;
+  margin: auto;
+}
+
+.wrap {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-top: 20px;
 }
