@@ -1,5 +1,6 @@
 import './header.scss';
 import { Icon } from '@iconify/react';
+import Photo from '../assets/images/photo.png';
 
 function Header() {
     return (
@@ -10,12 +11,11 @@ function Header() {
                 </div>
 
                 <div class="col1-name"><h1>Sandra Alliès</h1></div>
-                <div class="col1-mail">sandra.allies.fr@gmail.com</div>
+                <div class="col1-mail">sandra.allies@3wa.io</div>
             </div>
 
             <div className="col2">
-                <div class="avatar"> </div>
-
+                    <img src={Photo} />
             </div>
 
             <div className="col3">
