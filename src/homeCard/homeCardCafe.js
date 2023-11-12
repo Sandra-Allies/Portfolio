@@ -18,6 +18,7 @@ function HomeCardCafe() {
                     <li>Réponse 1 : Le café.</li>
                     <li>Réponse 2 : Le thé.</li>
                     <li>Réponse 3 : Une chocolatine et un café / thé.</li>
+                    <li className="HomeCard-contentBarre">Réponse 4 : Un pain au chocolat et un café / thé.</li>
                 </ul></p>
             </div>
         </div>
