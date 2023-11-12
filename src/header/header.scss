@@ -53,6 +53,16 @@
     height: 100%;
     border: $violet solid 5px;
     border-radius: 150px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+        width: 120%;
+        height: auto;
+        position: absolute;
+        top: -35px;
+        left: -10px;
+    }
 }
 
 .col3 {
