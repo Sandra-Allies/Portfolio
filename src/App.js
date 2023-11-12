@@ -6,7 +6,7 @@ import Cards from './cards/cards';
 import Footer from './footer/footer';
 import HomeCard from './homeCard/homeCard';
 import HomeCardCitation from './homeCard/homeCardCitation';
-import HomeCardCode from './homeCard/homeCardCode';
+import HomeCardCafe from './homeCard/homeCardCafe';
 
 
 function App() {
@@ -16,11 +16,11 @@ function App() {
       <Menu />
 
       {/* Début corp du site */}
-      {/* <About /> */}
+      <About />
 
       <div className="wrapHome">
         <HomeCardCitation />
-        <HomeCardCode />
+        <HomeCardCafe />
       </div>
 
       {/* <div className="wrap">
