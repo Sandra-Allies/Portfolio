@@ -4,7 +4,6 @@ import Menu from './menu/menu';
 import About from './about/about';
 import Cards from './cards/cards';
 import Footer from './footer/footer';
-import HomeCard from './homeCard/homeCard';
 import HomeCardCitation from './homeCard/homeCardCitation';
 import HomeCardCafe from './homeCard/homeCardCafe';
 
