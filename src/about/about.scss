@@ -5,6 +5,10 @@
     height: auto;
     margin-top: 30px;
 
+&-vin {
+    font-size: 0.6em;
+}
+
     &-table {
         border-right: $rose solid 2px;
         border-bottom: $rose solid 2px;
