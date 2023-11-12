@@ -10,7 +10,7 @@ function Header() {
                 </div>
 
                 <div class="col1-name"><h1>Sandra Alliès</h1></div>
-                <div class="col1-mail">sandra.allies.fr@gmail.com</div>
+                <div class="col1-mail">sandra.allies@3wa.io</div>
             </div>
 
             <div className="col2">

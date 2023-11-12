@@ -2,7 +2,6 @@ import './cards.scss';
 import logo from '../assets/images/logo.jpg'
 
 function Card() {
-    // const feneco = Feneco;
     return (
         <div className="Card">
             <div className="Card-picture">
