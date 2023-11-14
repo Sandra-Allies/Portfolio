@@ -8,19 +8,24 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        height: auto;
-        padding: 5px;
+        height: 50px;
         display: flex;
-        align-content: center;
         border-top: black 1px solid;
         border-bottom: black 1px solid;
     }
 
     li {
         width: 100%;
-        height: 100%;
         text-align: center;
         list-style-type: none;
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
     }
 
     &-titre {
@@ -29,5 +34,9 @@
 
     &-icon {
         font-size: 2em;
+
+        a:hover {
+            opacity: 0.6;
+        }
     }
 }
