@@ -9,10 +9,17 @@ function Menu() {
                 <ul>
                     <li className="Menu-titre"><a href="">Accueil</a></li>
                     <li className="Menu-titre"><a href="">Réalisations</a></li>
-                    <li className="Menu-titre"><a href={CV} target="_blank" type="application/pdf">Mon CV</a></li>
+                    <li className="Menu-titre"><a href={CV} 
+                    target="_blank" 
+                    title="Téléchargement du cv au format PDF"
+                    type="application/pdf">Mon CV</a></li>
                     <li className="Menu-titre"><a href="">Ressources</a></li>
-                    <li className="Menu-icon"><a href="https://www.linkedin.com/in/sandra-allies/" title="S'ouvrira dans un nouvel onglet" target="_blank"><Icon icon="skill-icons:linkedin" /></a></li>
-                    <li className="Menu-icon"><a href="https://github.com/Sandra-Allies" title="S'ouvrira dans un nouvel onglet" target="_blank"><Icon icon="skill-icons:github-light" /></a></li>
+                    <li className="Menu-icon"><a href="https://www.linkedin.com/in/sandra-allies/" 
+                    title="S'ouvre dans un nouvel onglet" 
+                    target="_blank"><Icon icon="skill-icons:linkedin" /></a></li>
+                    <li className="Menu-icon"><a href="https://github.com/Sandra-Allies" 
+                    title="S'ouvre dans un nouvel onglet" 
+                    target="_blank"><Icon icon="skill-icons:github-light" /></a></li>
                 </ul>
             </nav>
         </div>
